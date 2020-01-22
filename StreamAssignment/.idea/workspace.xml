@@ -51,7 +51,7 @@
       <recent name="se.lexicon.vxo.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StreamAssignment.task1">
+  <component name="RunManager" selected="JUnit.StreamAssignment.task6">
     <configuration name="StreamAssignment.task1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StreamAssignment" />
       <extension name="coverage">
@@ -63,54 +63,6 @@
       <option name="PACKAGE_NAME" value="se.lexicon.vxo.service" />
       <option name="MAIN_CLASS_NAME" value="se.lexicon.vxo.service.StreamAssignment" />
       <option name="METHOD_NAME" value="task1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamAssignment.task10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StreamAssignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="se.lexicon.vxo.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="se.lexicon.vxo.service" />
-      <option name="MAIN_CLASS_NAME" value="se.lexicon.vxo.service.StreamAssignment" />
-      <option name="METHOD_NAME" value="task10" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamAssignment.task11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StreamAssignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="se.lexicon.vxo.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="se.lexicon.vxo.service" />
-      <option name="MAIN_CLASS_NAME" value="se.lexicon.vxo.service.StreamAssignment" />
-      <option name="METHOD_NAME" value="task11" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamAssignment.task2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StreamAssignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="se.lexicon.vxo.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="se.lexicon.vxo.service" />
-      <option name="MAIN_CLASS_NAME" value="se.lexicon.vxo.service.StreamAssignment" />
-      <option name="METHOD_NAME" value="task2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,60 +84,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+    <configuration name="StreamAssignment.task4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StreamAssignment" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.vxo.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.lexicon.vxo.service" />
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.vxo.service.StreamAssignment" />
+      <option name="METHOD_NAME" value="task4" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+    <configuration name="StreamAssignment.task5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StreamAssignment" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.vxo.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.lexicon.vxo.service" />
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.vxo.service.StreamAssignment" />
+      <option name="METHOD_NAME" value="task5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamAssignment.task6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StreamAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.vxo.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.lexicon.vxo.service" />
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.vxo.service.StreamAssignment" />
+      <option name="METHOD_NAME" value="task6" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StreamAssignment.task6" />
+        <item itemvalue="JUnit.StreamAssignment.task5" />
+        <item itemvalue="JUnit.StreamAssignment.task4" />
         <item itemvalue="JUnit.StreamAssignment.task1" />
         <item itemvalue="JUnit.StreamAssignment.task3" />
-        <item itemvalue="JUnit.StreamAssignment.task2" />
-        <item itemvalue="JUnit.StreamAssignment.task11" />
-        <item itemvalue="JUnit.StreamAssignment.task10" />
       </list>
     </recent_temporary>
   </component>
@@ -223,25 +176,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="808" y="410" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579431010926" />
-    <state width="1877" height="218" key="GridCell.Tab.0.bottom" timestamp="1579434990917">
+    <state x="690" y="268" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1579693642187">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="218" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579434990917" />
-    <state width="1877" height="218" key="GridCell.Tab.0.center" timestamp="1579434990917">
+    <state x="690" y="268" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579693642187" />
+    <state width="1877" height="218" key="GridCell.Tab.0.bottom" timestamp="1579694199615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="218" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579434990917" />
-    <state width="1877" height="218" key="GridCell.Tab.0.left" timestamp="1579434990917">
+    <state width="1877" height="218" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579694199615" />
+    <state width="1877" height="218" key="GridCell.Tab.0.center" timestamp="1579694199615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="218" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579434990917" />
-    <state width="1877" height="218" key="GridCell.Tab.0.right" timestamp="1579434990917">
+    <state width="1877" height="218" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579694199615" />
+    <state width="1877" height="218" key="GridCell.Tab.0.left" timestamp="1579694199615">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="218" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579434990917" />
+    <state width="1877" height="218" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579694199615" />
+    <state width="1877" height="218" key="GridCell.Tab.0.right" timestamp="1579694199615">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="218" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579694199615" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1579434921106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579434921106" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1579689586515">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579689586515" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/StreamAssignment$StreamAssignment_task4.ic" NAME="StreamAssignment.task4 Coverage Results" MODIFIED="1579435669230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>se.lexicon.vxo.service.*</FILTER>
+    </SUITE>
   </component>
 </project>

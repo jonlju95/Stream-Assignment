@@ -9,7 +9,9 @@ import java.time.LocalDate;
 import java.time.Period;
 import java.util.*;
 import java.util.function.ToIntFunction;
+import java.util.stream.Collector;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -69,7 +71,7 @@ public class StreamAssignment {
         List<Person> females = null;
 
         //Write code here
-
+        females = people.stream().filter(person -> person.getGender()==Gender.FEMALE).collect(Collectors.toList());
         assertNotNull(females);
         assertEquals(expectedSize, females.size());
     }
@@ -83,7 +85,7 @@ public class StreamAssignment {
         Set<LocalDate> dates = null;
 
         //Write code here
-
+        dates = people.stream().map(Person::getDateOfBirth).collect(Collectors.toSet());
         assertNotNull(dates);
         assertEquals(expectedSize, dates.size());
     }
@@ -98,7 +100,6 @@ public class StreamAssignment {
         Person[] result = null;
 
         //Write code here
-
         assertNotNull(result);
         assertEquals(expectedLength, result.length);
     }
