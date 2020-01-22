@@ -5,6 +5,7 @@ import se.lexicon.vxo.model.Gender;
 import se.lexicon.vxo.model.Person;
 import se.lexicon.vxo.model.PersonDto;
 
+import java.io.FileInputStream;
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.*;
@@ -100,6 +101,7 @@ public class StreamAssignment {
         Person[] result = null;
 
         //Write code here
+        result = people.stream().filter(person -> person.getFirstName().equals("Erik")).toArray(Person[]::new);
         assertNotNull(result);
         assertEquals(expectedLength, result.length);
     }
@@ -112,9 +114,8 @@ public class StreamAssignment {
         Person expected = new Person(5436, "Tea", "Håkansson", LocalDate.parse("1968-01-25"), Gender.FEMALE);
 
         Optional<Person> optional = null;
-
         //Write code here
-
+        optional = people.stream().filter(person -> person.getPersonId()==5436).findFirst();
         assertNotNull(optional);
         assertTrue(optional.isPresent());
         assertEquals(expected, optional.get());
@@ -130,7 +131,7 @@ public class StreamAssignment {
         Optional<Person> optional = null;
 
         //Write code here
-
+        optional = people.stream().min(Comparator.comparing(person -> person.getDateOfBirth()));
         assertNotNull(optional);
         assertEquals(expectedBirthDate, optional.get().getDateOfBirth());
     }
@@ -144,9 +145,10 @@ public class StreamAssignment {
         LocalDate date = LocalDate.parse("1920-01-01");
 
         List<PersonDto> dtoList = null;
-
         //Write code here
-
+        dtoList = people.stream().filter(person -> person.getDateOfBirth().isBefore(date)).map(person -> {
+            return new PersonDto(person.getPersonId(), person.getFirstName()+person.getLastName());
+        }).collect(Collectors.toList());
         assertNotNull(dtoList);
         assertEquals(expectedSize, dtoList.size());
     }
@@ -223,7 +225,6 @@ public class StreamAssignment {
         LocalDate[] _2020_dates = null;
 
         //Write code here
-
 
         assertNotNull(_2020_dates);
         assertEquals(366, _2020_dates.length);
