@@ -8,10 +8,13 @@ import se.lexicon.vxo.model.PersonDto;
 import java.io.FileInputStream;
 import java.time.LocalDate;
 import java.time.Period;
+import java.time.format.DateTimeFormatter;
+import java.time.format.DateTimeFormatterBuilder;
 import java.util.*;
 import java.util.function.ToIntFunction;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -165,7 +168,9 @@ public class StreamAssignment {
         Optional<String> optional = null;
 
         //Write code here
-
+        List<Person> wanted = people.stream().filter(person -> person.getPersonId()==5914).collect(Collectors.toList());
+        DateTimeFormatter formatter = new DateTimeFormatterBuilder().appendPattern("EEEE dd MMMM yyyy").toFormatter(Locale.ENGLISH);
+        optional = Optional.of(wanted.get(0).getDateOfBirth().format(formatter).toUpperCase());
         assertNotNull(optional);
         assertTrue(optional.isPresent());
         assertEquals(expected, optional.get());
@@ -198,7 +203,7 @@ public class StreamAssignment {
         String[] result = null;
 
         //Write code here
-
+        //result =  people.stream().sorted().map(person -> person.getFirstName()).collect(Collectors.toList()).toArray(String::new);
         assertNotNull(result);
         assertArrayEquals(expected, result);
     }
