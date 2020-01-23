@@ -225,7 +225,7 @@ public class StreamAssignment {
         Map<String, List<Person>> personMap = null;
 
         //Write code here
-
+        personMap = people.stream().collect(Collectors.groupingBy(Person::getLastName));
         assertNotNull(personMap);
         assertEquals(expectedSize, personMap.size());
     }
