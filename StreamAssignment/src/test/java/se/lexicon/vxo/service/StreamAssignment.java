@@ -1,15 +1,20 @@
 package se.lexicon.vxo.service;
 
+import com.sun.deploy.util.ArrayUtil;
 import org.junit.jupiter.api.Test;
 import se.lexicon.vxo.model.Gender;
 import se.lexicon.vxo.model.Person;
 import se.lexicon.vxo.model.PersonDto;
 
 import java.io.FileInputStream;
+import java.lang.reflect.Array;
 import java.time.LocalDate;
+import java.time.LocalTime;
 import java.time.Period;
+import java.time.Year;
 import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeFormatterBuilder;
+import java.time.temporal.ChronoUnit;
 import java.util.*;
 import java.util.function.ToIntFunction;
 import java.util.stream.Collector;
@@ -170,7 +175,7 @@ public class StreamAssignment {
         //Write code here
         List<Person> wanted = people.stream().filter(person -> person.getPersonId()==5914).collect(Collectors.toList());
         DateTimeFormatter formatter = new DateTimeFormatterBuilder().appendPattern("EEEE dd MMMM yyyy").toFormatter(Locale.ENGLISH);
-        optional = Optional.of(wanted.get(0).getDateOfBirth().format(formatter).toUpperCase());
+        optional = Optional.of(wanted.get(wanted.size()-1).getDateOfBirth().format(formatter).toUpperCase());
         assertNotNull(optional);
         assertTrue(optional.isPresent());
         assertEquals(expected, optional.get());
@@ -203,7 +208,10 @@ public class StreamAssignment {
         String[] result = null;
 
         //Write code here
-        //result =  people.stream().sorted().map(person -> person.getFirstName()).collect(Collectors.toList()).toArray(String::new);
+        result = people.stream().filter(person -> {
+            StringBuilder reverse = new StringBuilder(person.getFirstName()).reverse();
+            return person.getFirstName().equalsIgnoreCase(reverse.toString());
+        }).map(person -> person.getFirstName()).sorted().distinct().toArray(String[]::new);
         assertNotNull(result);
         assertArrayEquals(expected, result);
     }
@@ -230,7 +238,7 @@ public class StreamAssignment {
         LocalDate[] _2020_dates = null;
 
         //Write code here
-
+        _2020_dates = Stream.iterate(LocalDate.parse("2020-01-01"), date -> date.plusDays(1)).limit(Year.now().length()).toArray(LocalDate[]::new);
         assertNotNull(_2020_dates);
         assertEquals(366, _2020_dates.length);
         assertEquals(LocalDate.parse("2020-01-01"), _2020_dates[0]);

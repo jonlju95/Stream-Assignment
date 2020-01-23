@@ -38,6 +38,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
@@ -51,7 +52,7 @@
       <recent name="se.lexicon.vxo.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StreamAssignment.task11">
+  <component name="RunManager" selected="JUnit.StreamAssignment.task14">
     <configuration name="StreamAssignment.task10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StreamAssignment" />
       <extension name="coverage">
@@ -100,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamAssignment.task8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamAssignment.task14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StreamAssignment" />
       <extension name="coverage">
         <pattern>
@@ -110,7 +111,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="se.lexicon.vxo.service" />
       <option name="MAIN_CLASS_NAME" value="se.lexicon.vxo.service.StreamAssignment" />
-      <option name="METHOD_NAME" value="task8" />
+      <option name="METHOD_NAME" value="task14" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StreamAssignment.task11" />
+        <item itemvalue="JUnit.StreamAssignment.task14" />
         <item itemvalue="JUnit.StreamAssignment.task12" />
+        <item itemvalue="JUnit.StreamAssignment.task11" />
         <item itemvalue="JUnit.StreamAssignment.task10" />
         <item itemvalue="JUnit.StreamAssignment.task9" />
-        <item itemvalue="JUnit.StreamAssignment.task8" />
       </list>
     </recent_temporary>
   </component>
@@ -184,42 +185,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="605" y="112" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579766689971" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1579769274309">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="218" key="GridCell.Tab.0.bottom" timestamp="1579775957266">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579728403492" />
+    <state width="1877" height="218" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579775957266" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579769274309" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1579769274309">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="218" key="GridCell.Tab.0.center" timestamp="1579775957266">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579728403492" />
+    <state width="1877" height="218" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579775957266" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579769274309" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1579769274309">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="218" key="GridCell.Tab.0.left" timestamp="1579775957266">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579728403492" />
+    <state width="1877" height="218" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579775957266" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579769274309" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1579769274309">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1877" height="218" key="GridCell.Tab.0.right" timestamp="1579775957266">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579728403492" />
+    <state width="1877" height="218" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579775957266" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579769274309" />
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1579728403492">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1579775855766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579728403492" />
-    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1579728403492">
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579775855766" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1579775855766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579728403492" />
-    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1579728403492">
+    <state width="1877" height="348" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579775855766" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1579775855766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579728403492" />
-    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1579728403492">
+    <state width="1877" height="348" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579775855766" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1579775855766">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579728403492" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579775855766" />
     <state x="490" y="176" key="Maven.ArtifactSearchDialog" timestamp="1579718952810">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
