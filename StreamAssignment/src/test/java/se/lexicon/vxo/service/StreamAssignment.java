@@ -1,25 +1,17 @@
 package se.lexicon.vxo.service;
 
-import com.sun.deploy.util.ArrayUtil;
 import org.junit.jupiter.api.Test;
 import se.lexicon.vxo.model.Gender;
 import se.lexicon.vxo.model.Person;
 import se.lexicon.vxo.model.PersonDto;
 
-import java.io.FileInputStream;
-import java.lang.reflect.Array;
 import java.time.LocalDate;
-import java.time.LocalTime;
 import java.time.Period;
 import java.time.Year;
-import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeFormatterBuilder;
-import java.time.temporal.ChronoUnit;
 import java.util.*;
 import java.util.function.ToIntFunction;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.*;
