@@ -94,7 +94,7 @@ public class StreamAssignment {
         Set<LocalDate> dates = null;
 
         //Write code here
-        dates = people.stream().map(Person::getDateOfBirth).collect(Collectors.toSet());
+        dates = people.stream().map(person -> person.getDateOfBirth()).collect(Collectors.toSet());
         assertNotNull(dates);
         assertEquals(expectedSize, dates.size());
     }
@@ -123,7 +123,7 @@ public class StreamAssignment {
 
         Optional<Person> optional = null;
         //Write code here
-        optional = people.stream().filter(person -> person.getPersonId()==5436).findFirst();
+        optional = people.stream().filter(person -> person.getPersonId()==expected.getPersonId()).findFirst();
         assertNotNull(optional);
         assertTrue(optional.isPresent());
         assertEquals(expected, optional.get());
@@ -173,9 +173,8 @@ public class StreamAssignment {
         Optional<String> optional = null;
 
         //Write code here
-        List<Person> wanted = people.stream().filter(person -> person.getPersonId()==5914).collect(Collectors.toList());
-        DateTimeFormatter formatter = new DateTimeFormatterBuilder().appendPattern("EEEE dd MMMM yyyy").toFormatter(Locale.ENGLISH);
-        optional = Optional.of(wanted.get(wanted.size()-1).getDateOfBirth().format(formatter).toUpperCase());
+        optional = Optional.of(people.stream().filter(person -> person.getPersonId()==personId).findFirst().get()
+                .getDateOfBirth().format(new DateTimeFormatterBuilder().appendPattern("EEEE dd MMMM yyyy").toFormatter(Locale.ENGLISH)).toUpperCase());
         assertNotNull(optional);
         assertTrue(optional.isPresent());
         assertEquals(expected, optional.get());
@@ -204,7 +203,6 @@ public class StreamAssignment {
     @Test
     public void task12(){
         String[] expected = {"Ada", "Ana", "Anna", "Ava", "Aya", "Bob", "Ebbe", "Efe", "Eje", "Elle", "Hannah", "Maram", "Natan", "Otto"};
-
         String[] result = null;
 
         //Write code here
@@ -225,7 +223,7 @@ public class StreamAssignment {
         Map<String, List<Person>> personMap = null;
 
         //Write code here
-        personMap = people.stream().collect(Collectors.groupingBy(Person::getLastName));
+        personMap = people.stream().collect(Collectors.groupingBy(person -> person.getLastName()));
         assertNotNull(personMap);
         assertEquals(expectedSize, personMap.size());
     }

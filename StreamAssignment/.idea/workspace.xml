@@ -52,7 +52,7 @@
       <recent name="se.lexicon.vxo.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StreamAssignment.task13">
+  <component name="RunManager" selected="JUnit.StreamAssignment">
     <configuration name="StreamAssignment" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StreamAssignment" />
       <extension name="coverage">
@@ -64,6 +64,22 @@
       <option name="PACKAGE_NAME" value="se.lexicon.vxo.service" />
       <option name="MAIN_CLASS_NAME" value="se.lexicon.vxo.service.StreamAssignment" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamAssignment.task10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StreamAssignment" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.lexicon.vxo.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.lexicon.vxo.service" />
+      <option name="MAIN_CLASS_NAME" value="se.lexicon.vxo.service.StreamAssignment" />
+      <option name="METHOD_NAME" value="task10" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,7 +100,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamAssignment.task12" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamAssignment.task5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StreamAssignment" />
       <extension name="coverage">
         <pattern>
@@ -94,13 +110,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="se.lexicon.vxo.service" />
       <option name="MAIN_CLASS_NAME" value="se.lexicon.vxo.service.StreamAssignment" />
-      <option name="METHOD_NAME" value="task12" />
+      <option name="METHOD_NAME" value="task5" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamAssignment.task13" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StreamAssignment.task7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StreamAssignment" />
       <extension name="coverage">
         <pattern>
@@ -110,23 +126,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="se.lexicon.vxo.service" />
       <option name="MAIN_CLASS_NAME" value="se.lexicon.vxo.service.StreamAssignment" />
-      <option name="METHOD_NAME" value="task13" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamAssignment.task14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StreamAssignment" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="se.lexicon.vxo.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="se.lexicon.vxo.service" />
-      <option name="MAIN_CLASS_NAME" value="se.lexicon.vxo.service.StreamAssignment" />
-      <option name="METHOD_NAME" value="task14" />
+      <option name="METHOD_NAME" value="task7" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StreamAssignment.task13" />
-        <item itemvalue="JUnit.StreamAssignment.task14" />
         <item itemvalue="JUnit.StreamAssignment" />
-        <item itemvalue="JUnit.StreamAssignment.task12" />
+        <item itemvalue="JUnit.StreamAssignment.task5" />
+        <item itemvalue="JUnit.StreamAssignment.task7" />
         <item itemvalue="JUnit.StreamAssignment.task11" />
+        <item itemvalue="JUnit.StreamAssignment.task10" />
       </list>
     </recent_temporary>
   </component>
@@ -188,25 +188,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="605" y="112" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1579766689971" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1579815019875">
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1579868689159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579815019875" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579868689159" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1579769274309" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1579815019875">
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1579868689159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579815019875" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579868689159" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1579769274309" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1579815019875">
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1579868689159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579815019875" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579868689159" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1579769274309" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1579815019875">
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1579868689159">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="348" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579815019875" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579868689159" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1579769274309" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1579815019876">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -233,26 +233,15 @@
     </state>
     <state x="461" y="163" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579434921106" />
     <state x="326" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1579766816595" />
-    <state x="467" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1579766520293">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1579868142074">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579689586515" />
+    <state x="656" y="345" key="com.intellij.ide.util.TipDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579868142074" />
     <state x="467" y="242" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1579766520293" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1579726427976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1579726427976" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/se/lexicon/vxo/service/StreamAssignment.java</url>
-          <line>229</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/StreamAssignment$StreamAssignment_task4.ic" NAME="StreamAssignment.task4 Coverage Results" MODIFIED="1579435669230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
