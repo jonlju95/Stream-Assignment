@@ -40,6 +40,19 @@
       <recent name="C:\Users\Jonatan\Documents\Ec Utb\Avancerad javaprogrammering\StreamAssignment\StreamAssignment\src\test\java\se\lexicon\vxo\data" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
